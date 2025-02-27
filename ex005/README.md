@@ -26,6 +26,8 @@ O objetivo é encontrar o caminho do jogador até o prêmio utilizando algoritmo
 ## Instalação
 
 1. Clone o repositório:
+     ```
+    https://github.com/brunoalmeida015/Estrutura-de-Dados/tree/main/ex005.git
     ```
 2. Instale as dependências:
     ```sh
