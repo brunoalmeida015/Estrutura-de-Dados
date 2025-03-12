@@ -37,9 +37,43 @@ Para compilar e executar o projeto, siga os seguintes passos:
     ./main
     ```
 
-## Exemplo de Uso
+## Saída
 
-- fila.inserir(50);
-- fila.print();
-- fila.remover();
-- fila.print();
+ ```
+Fila criada
+Vazia? Sim
+Valor 10 adicionado.
+Fila: 10
+Vazia? Nao
+Valor 20 adicionado.
+Fila: 10 20
+Valor 15 adicionado.
+Fila: 10 20 15      
+Tamanho =  3
+Valor 30 adicionado.
+Fila: 10 20 15 30
+Valor 40 adicionado.
+Fila: 10 20 15 30 40
+Cheia? Nao
+Fila: 10 20 15 30 40
+Valor 50 adicionado.
+Fila: 10 20 15 30 40 50
+Valor 10 removido.
+Fila: 20 15 30 40 50
+Valor 60 adicionado.
+Fila: 20 15 30 40 50 60
+Fila: 20 15 30 40 50 60
+Valor 70 adicionado.
+Fila: 20 15 30 40 50 60 70
+Valor 80 adicionado.
+Fila: 20 15 30 40 50 60 70 80
+Valor 90 adicionado.
+Fila: 20 15 30 40 50 60 70 80 90
+Valor 100 adicionado.
+Fila: 20 15 30 40 50 60 70 80 90 100
+Elemento do topo: 20
+Cheia? Sim
+Valor 20 removido.
+Valor 15 removido.
+Fila: 30 40 50 60 70 80 90 100
+ ```
