@@ -57,9 +57,26 @@ O arquivo `main.py` executa as seguintes operações:
    ```bash
    python main.py
 
-   ex007/
-├── [graph.py](http://_vscodecontentref_/0)
-├── [leitor_arquivo.py](http://_vscodecontentref_/1)
-├── [main.py](http://_vscodecontentref_/2)
-├── [pcv4.txt](http://_vscodecontentref_/3)
-└── README.md
+ # Saída
+
+  ```
+Número de Vértices: 4
+Matriz de adjacência:
+[[0, 3, 4, 0], [3, 0, 5, 7], [4, 5, 0, 0], [0, 7, 0, 0]]
+Lista de Adjacência:
+[[1, 2], [0, 2, 3], [0, 1], [1]]
+Vertice: 0
+Vertice: 1
+Vertice: 2
+Vertice: 3
+Número de Componentes: 1
+
+BFS Caminho:
+Caminho entre 0 e 3: 0 -> 1 -> 3
+
+DFS Iterativo:
+Visitando vértice: 0
+Visitando vértice: 2
+Visitando vértice: 1
+Visitando vértice: 3
+ ```
